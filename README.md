@@ -13,7 +13,7 @@ cd list2json
 
 ```
 cd list2json
-python3 b8.py <book118_document_url>
+python3 list2json.py [--debug] <list_file_path> [<json_path>] [--indent=<indent_str>]
 ```
 
 
