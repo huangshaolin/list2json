@@ -3,7 +3,7 @@
 """my_program
 
 Usage:
-    my_program [--debug] <md_path> [<json_path>] [--indent=<indent_str>]
+    my_program [--debug] <list_file_path> [<json_path>] [--indent=<indent_str>]
     my_program -h | --help
     my_program --version
 
