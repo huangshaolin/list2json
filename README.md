@@ -7,6 +7,7 @@ Convert multilevel list to JSON.
 ```
 git clone https://github.com/huangshaolin/list2json.git
 cd list2json
+pip3 install --user -r requirements.txt
 ```
 
 ## Usage
