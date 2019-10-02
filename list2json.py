@@ -41,16 +41,16 @@ logger = logging.getLogger(__name__)
 
 def main(args):
     logger.debug(args)
-    md_path = args.get("<md_path>")
+    list_file_path = args.get("<list_file_path>")
     json_path = args.get("<json_path>")
     indent_str = args.get("--indent")
 
     if not json_path:
-        json_path = md_path + ".json"
+        json_path = list_file_path + ".json"
     if not indent_str:
         indent_str = '\t'
 
-    with open(md_path, 'r') as f:
+    with open(list_file_path, 'r') as f:
         lines = f.readlines()
     d = indented_lines_to_dict(lines, indent_str)
     with open(json_path, 'w') as f:
@@ -60,7 +60,7 @@ def main(args):
 
 # Main body
 if __name__ == "__main__":
-    args = docopt(__doc__, version='my_program 0.0.1')
-    if args.get('--debug'):
+    cli_args = docopt(__doc__, version='my_program 0.0.1')
+    if cli_args.get('--debug'):
         logging.basicConfig(level=logging.DEBUG)
-    main(args)
+    main(cli_args)
