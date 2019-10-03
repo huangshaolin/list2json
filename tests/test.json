@@ -1,0 +1,40 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [],
+                    "data": "a1\n"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [],
+                            "data": "a21\n"
+                        }
+                    ],
+                    "data": "a2\n"
+                },
+                {
+                    "children": [],
+                    "data": "a3\n"
+                }
+            ],
+            "data": "a\n"
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "data": "b1\n"
+                }
+            ],
+            "data": "b\n"
+        },
+        {
+            "children": [],
+            "data": "\n"
+        }
+    ],
+    "data": ""
+}
