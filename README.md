@@ -1,4 +1,5 @@
 # list2json
+[![Build Status](https://travis-ci.org/huangshaolin/list2json.svg?branch=master)](https://travis-ci.org/huangshaolin/list2json) [![codecov](https://img.shields.io/codecov/c/github/huangshaolin/list2json/master.svg)](https://codecov.io/gh/huangshaolin/list2json) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 Convert multilevel list to JSON.
 
